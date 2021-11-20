@@ -13,11 +13,10 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This site designed and built by me using React.js, Javascript, Tailwind CSS. <br>
-            </br>
-            Languges: JavaScript, CSS, HTML<br></br>
-            Skills and Tools: React.js, Redux, Node.js, jQuery, EJS, AJAX, JSON, Sass, Git, GitHub, VS Code, SQL, MongoDB, Heroku, Netlify, PostgreSQL, Jest, Material UI, BEM, Bootstrap, REST API's, Auth0, AWS (SQS, Elastic Beanstalk, Lamba, DynamoDB, S3, API Gateway), Postman, Figma, Square, Lightroom, Illustrator, Trailhead by Salesforce (in progress).
-
+            This site designed and built by me using React.js, Javascript, Tailwind CSS.
+          </p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Below are projects from Code Fellows **TO DO FIND CF'S LOGO**
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -25,7 +24,7 @@ export default function Projects() {
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="h-1/3 sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
                   alt="gallery"

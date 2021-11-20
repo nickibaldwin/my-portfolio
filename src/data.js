@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "JavaScript, CSS, HTML, MongoDB, Google Maps API",
     description:
       "Created a route generator to render specified stopping points along a user selected route.",
-    image: "./routeGen.png",
+    image: "./assets/routeGen.png",
     link: "https://github.com/nickibaldwin/MVP_DevGroup_Route_Generator/blob/main/README.md",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "Javascript, CSS, HTML",
     description:
       "Created a memory/matching game, complete with animation.",
-    image: "./matchingGame.png",
+    image: "./assets/matchingGame.png",
     link: "https://github.com/nickibaldwin/MVP_DevGroup_Project_1",
   },
   // {
@@ -33,28 +33,28 @@ export const projects = [
   // },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
-  },
-];
+// export const testimonials = [
+//   {
+//     quote:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+//     image: "https://randomuser.me/api/portraits/men/1.jpg",
+//     name: "Jesse Hicks",
+//     company: "Zoozle",
+//   },
+//   {
+//     quote:
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+//     image: "https://randomuser.me/api/portraits/men/94.jpg",
+//     name: "Ruben Alvarez",
+//     company: "Dooble.io",
+//   },
+// ];
 
 export const skills = [
   "JavaScript",
   "React",
-  "Next.js",
+  "Sass",
   "Node",
-  "GraphQL",
+  "MongoDB",
   "Material UI",
 ];
