@@ -5,7 +5,7 @@ import { projects } from "../data";
 export default function Projects() {
 
   return (
-    <section id="projects" className="text-gray-400 bg-gray-900 body-font">
+    <section id="projects" className="text-gray-400 bg-gray-200 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
@@ -13,10 +13,10 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This site designed and built by me using React.js, Javascript, Tailwind CSS.
+            This site was designed and built by me using React.js, Javascript, Tailwind CSS.
           </p>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below are projects from Code Fellows **TO DO FIND CF'S LOGO**
+            Below are projects from <img className="h-10 w-20" alt="Code Fellows" src="./assets/cfLogo.png"></img>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

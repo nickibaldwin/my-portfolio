@@ -6,17 +6,17 @@ export default function Portfolio() {
 
   return (
     <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
+      <div className="container bg-gray-900 px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          <p>
+          <p className="text-gray-200 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="font-bold leading-relaxed underline">
             Languges: 
             </p> JavaScript, CSS, HTML
-          <p>Skills and Tools: 
+          <p className="font-bold leading-relaxed underline">Skills and Tools: 
             </p>React.js, Redux, Node.js, jQuery, EJS, AJAX, JSON, Sass, Git, GitHub, VS Code, SQL, MongoDB, Heroku, Netlify, PostgreSQL, Jest, Material UI, BEM, Bootstrap, REST API's, Auth0, AWS (SQS, Elastic Beanstalk, Lamba, DynamoDB, S3, API Gateway), Postman, Figma, Square, Lightroom, Illustrator, Trailhead by Salesforce.
           </p>
         </div>
