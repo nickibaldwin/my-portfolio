@@ -9,14 +9,14 @@ export default function Projects() {
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-900">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            This site was designed and built by me using React.js, Javascript, Tailwind CSS.
+          <p className="lg:w-2/3 mx-auto leading-relaxed pb-10 text-gray-800">
+            This site was designed and built by me using React.js, Javascript, and Tailwind CSS.
           </p>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Below are projects from <img className="h-10 w-20" alt="Code Fellows" src="./assets/cfLogo.png"></img>
+          <p className="lg:w-2/3 mx-auto leading-relaxed ">
+            Below are projects from <img className="h-7 w-40 inline" alt="Code Fellows" src="./assets/cfLogo.png"></img>
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

@@ -58,3 +58,7 @@ export const skills = [
   "MongoDB",
   "Material UI",
 ];
+
+// export const resumeSkills = [
+//   ""
+// ]
