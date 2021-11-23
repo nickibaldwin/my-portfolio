@@ -6,14 +6,14 @@ export default function Portfolio() {
 
   return (
     <section id="skills">
-      <div className="container bg-gray-900 px-5 py-10 mx-auto">
+      <div className="container bg-gray-200 px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font text-gray-900 mb-4">
             Skills &amp; Technologies
           </h1>
-          <p className="text-gray-200 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          <p className="font-bold leading-relaxed underline">
+          <p className="text-gray-800 leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="font-bold leading-relaxed underline inline">
             Languges: 
             </p> JavaScript, CSS, HTML
           <p className="font-bold leading-relaxed underline">Skills and Tools: 

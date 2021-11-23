@@ -1,5 +1,5 @@
 import React from "react";
-import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
+import { MailIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
 
